@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
+import UserList from './UserList';
 
 export default class App extends Component {
     render() {
         return (
-            <div>React/Redux simple starter</div>
+            <div>
+                <UserList />
+            </div>
         );
     }
 }
